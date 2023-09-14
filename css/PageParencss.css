@@ -1,0 +1,75 @@
+#mainPage
+{
+    position: relative;
+    top:80px;
+    padding-top:150px;
+    height: 1200px;
+}
+.image1
+{
+    width: 200px;
+    height: 200px;
+    border:#00aeef solid;
+  
+}
+
+.tableImage
+{
+   margin-left:auto;
+   margin-right: auto;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+    background-size: 3.125em;
+    
+   
+}
+td
+    {
+padding:0 15px;
+     }
+button
+    {
+     background-color:#f7b801;
+     width:100px; 
+     border-radius:5px; 
+    }
+.priceTag
+    {
+        padding-top:10px;
+    }
+
+#itemSelected
+    {
+        width:100%;
+        border-collapse:collapse;
+    }
+#itemSelected th
+    {
+     text-align:left; 
+     padding:5px;
+     color:#fff;
+     background:#ff523b;
+    }
+.total-price
+    {
+        display:flex;
+        justify-content:flex-end;
+    }
+
+.total-price table
+    {
+     border-top:3px solid #ff523b;
+     width:100%;
+     max-width:350px;
+    }
+td:last-child
+    {
+text-align:right; 
+    }
+#itemSelected th:last-child
+    {
+     text-align:right;
+    }
